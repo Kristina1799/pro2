@@ -1,0 +1,42 @@
+.conteiner__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $gray;
+    padding-left: 80px;
+}
+
+.logo__link {
+    width: 40px;
+    height: 40px;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    margin-right: 27px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.contacts__phone {
+    font-size: 18px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.contacts__phone__icon-elem {
+width: 14px;
+height: 13,78px;
+margin-right: 6px;
+}
+
+.menu__link {
+    text-decoration: none;
+}

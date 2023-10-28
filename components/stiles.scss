@@ -1,9 +1,6 @@
 $containerWidth: 940px;
 $baseFontSize: 18px;
 
-@import './_layout.scss';
-@import './_preview.scss';
-
 //colors
 $red: #E01F3D;
 $body: #666666;
@@ -17,4 +14,15 @@ $gray: #F5F5F5;
 //setups
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
-@import "layout";
+@import "./_layout";
+@import "./_preview";
+@import "./_header";
+@import "./_bullet";
+@import "./_btn.scss";
+@import "./_headline.scss";
+@import "./_benefits.scss";
+@import "./_benefit.scss";
+@import "./_section";
+@import "./_benefits-section";
+@import "./reviews";
+@import "./interactive-avatar";
