@@ -3,6 +3,7 @@ $baseFontSize: 18px;
 
 //colors
 $red: #E01F3D;
+$darkRed: #CA1B36;
 $body: #666666;
 $black: #292929;
 $white: #FFFFFF;
@@ -24,5 +25,8 @@ $gray: #F5F5F5;
 @import "./_benefit.scss";
 @import "./_section";
 @import "./_benefits-section";
-@import "./reviews";
-@import "./interactive-avatar";
+@import "./_reviews";
+@import "./_interactive-avatar";
+@import "./_form";
+@import "./_radio";
+@import "./btn2";
