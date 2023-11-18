@@ -1,0 +1,21 @@
+.icons-section {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.icons {
+    display: flex;
+    margin-right: 8px;
+    &:first-child {
+        margin-left: 70px;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.icons__info {
+    font-size: 18px;
+    max-width: 114px;
+}

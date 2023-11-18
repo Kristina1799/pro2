@@ -43,8 +43,15 @@
 .reviews__switcher {
     display: flex;
     flex-direction: row;
-    position: absolute;
-    padding-left: 40%;
+    align-items: center;
+    justify-content: center;
     padding-top: 15px;
+}
+
+.interactive-avatar {
     padding-right: 6px;
+
+    &:last-child {
+        margin-right: 0;
+    }
 }

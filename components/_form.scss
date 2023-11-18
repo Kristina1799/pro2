@@ -21,6 +21,10 @@ background-color: #181818;
 .form__row {
     display: flex;
     margin-bottom: 18px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 .form__block {
