@@ -1,6 +1,11 @@
 $containerWidth: 940px;
 $baseFontSize: 18px;
 
+//breackpoints
+
+$tablets: 768px;
+$phones: 480px;
+
 //colors
 $red: #E01F3D;
 $darkRed: #CA1B36;
@@ -8,6 +13,12 @@ $body: #666666;
 $black: #292929;
 $white: #FFFFFF;
 $gray: #F5F5F5;
+
+//z-indexes
+
+$z-fixed-menu: 100;
+
+@import "media";
 
 //normalize
 @import url(https://necolas.github.io/normalize.css/latest/normalize.css);
@@ -29,4 +40,5 @@ $gray: #F5F5F5;
 @import "./_interactive-avatar";
 @import "./_form";
 @import "./_radio";
-@import "./btn2";
+@import "./_btn2";
+@import"./_fixed-menu";

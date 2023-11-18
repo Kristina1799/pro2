@@ -1,7 +1,7 @@
 .radio {
     display: flex;
     cursor: pointer;
-    padding-right: 24px;
+    padding-right: rem(24px);
 
     &:last-child {
         margin-right: 0;
@@ -14,7 +14,7 @@
             &::before {
                 background: url(/img/checkmark.png);
                 background-repeat: no-repeat;
-                background-size: 10px 8px;
+                background-size: rem(10px) rem(8px);
                 
             }
         }
@@ -36,16 +36,16 @@
 }
 
 .radio__visible {
-    width: 25px;
-    height: 25px;
+    width: rem(25px);
+    height: rem(25px);
     position: relative;
     border-radius: 50%;
     background: #FFFFFF;
 
     &:before {
         content: "";
-        width: 13px;
-        height: 13px;
+        width: rem(13px);
+        height: rem(13px);
         background: $red;
         border-radius: 50%;
         position: absolute;

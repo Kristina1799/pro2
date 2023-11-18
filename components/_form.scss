@@ -11,7 +11,7 @@ background-color: #181818;
 
 .form__col {
     flex: 1;
-    margin-right: 20px;
+    margin-right: rem(20px);
 
     &:last-child {
         margin-right: 0;
@@ -20,7 +20,7 @@ background-color: #181818;
 
 .form__row {
     display: flex;
-    margin-bottom: 18px;
+    margin-bottom: rem(18px);
 
     &:last-child {
         margin-bottom: 0;
@@ -29,7 +29,7 @@ background-color: #181818;
 
 .form__block {
     flex: 1;
-    margin-right: 20px;
+    margin-right: rem(20px);
 
     &:last-child {
         margin-right: 0;
@@ -39,8 +39,8 @@ background-color: #181818;
 .form__input {
     width: 100%;
     border: none;
-    padding: 16px 14px;
-    border: solid 3px transparent;
+    padding: rem(16px) rem(14px);
+    border: solid rem(3px) transparent;
 
     &:focus {
         border-color: $red;
@@ -48,7 +48,7 @@ background-color: #181818;
     }
 
     &--textarea {
-        height: 174px;
+        height: rem(174px);
         resize: none;
     }
 }
@@ -56,5 +56,5 @@ background-color: #181818;
 .form__controls {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 16px;
+    padding-bottom: rem(16px);
 }

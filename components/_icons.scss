@@ -1,13 +1,17 @@
 .icons-section {
     display: flex;
-    padding-bottom: 50px;
+    padding-bottom: rem(50px);
+
+    @include tablets {
+        display: none;
+    }
 }
 
 .icons {
     display: flex;
-    margin-right: 8px;
+    margin-right: rem(8px);
     &:first-child {
-        margin-left: 70px;
+        margin-left: rem(70px);
     }
 
     &:last-child {
@@ -16,6 +20,6 @@
 }
 
 .icons__info {
-    font-size: 18px;
-    max-width: 114px;
+    font-size: rem(18px);
+    max-width: rem(114px);
 }

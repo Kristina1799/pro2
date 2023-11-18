@@ -4,13 +4,13 @@
 
 .benefits__item {
     flex: 1;
-    padding: 0 55px;
+    padding: 0 rem(55px);
     position: relative;
 
     &::before {
         content: url("../img/Combined.png");
         position: absolute;
-        top: 50px;
+        top: rem(50px);
         right: 0;
         transform: translateX(50%);
     }
