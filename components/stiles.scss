@@ -12,7 +12,7 @@ $darkRed: #CA1B36;
 $body: #666666;
 $black: #292929;
 $white: #FFFFFF;
-$gray: #F5F5F5;
+$gray:#F5F5F5;
 
 //z-indexes
 
@@ -42,3 +42,4 @@ $z-fixed-menu: 100;
 @import "./_radio";
 @import "./_btn2";
 @import"./_fixed-menu";
+@import"./_hamburger.scss";

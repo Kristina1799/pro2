@@ -13,7 +13,6 @@
         bottom: rem(-30px);
         right: 0;
     }
-
    
 }
 
@@ -34,6 +33,15 @@
     text-transform: uppercase;
     margin-top: rem(47px);
     margin-left: rem(70px);
+
+    @include tablets {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .preview__info {
@@ -42,4 +50,14 @@
     width: rem(332px);
     padding: rem(22px) 0 rem(36px);
     margin-left: rem(70px);
+
+    @include tablets {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
